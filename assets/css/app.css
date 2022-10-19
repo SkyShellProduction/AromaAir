@@ -4459,6 +4459,10 @@ input[type=number]::-webkit-outer-spin-button {
     .profile__data-order-text {
         font-size: 16px
     }
+    .profile__data-send {
+        position: absolute;
+        right: 16px
+    }
 }
 
 @media(max-width:450px) {
@@ -4493,10 +4497,6 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 10px 18px
     }
 
-    .profile__data-send {
-        position: absolute;
-        right: 16px
-    }
 }
 
 @media(max-width:360px) {
