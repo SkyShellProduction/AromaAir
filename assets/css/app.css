@@ -1,46 +1,54 @@
 @font-face {
+    font-display: swap;
     font-family: El Messiri;
     font-weight: 700;
     src: url(../fonts/ElMessiri-Bold.ttf) format("truetype"), url(../fonts/ElMessiri-Bold.woff2) format("woff2")
 }
 
 @font-face {
+    font-display: swap;
     font-family: El Messiri;
     font-weight: 600;
     src: url(../fonts/ElMessiri-SemiBold.ttf) format("truetype"), url(../fonts/ElMessiri-SemiBold.woff2) format("woff2")
 }
 
 @font-face {
+    font-display: swap;
     font-family: El Messiri;
     font-weight: 500;
     src: url(../fonts/ElMessiri-Medium.ttf) format("truetype"), url(../fonts/ElMessiri-Medium.woff2) format("woff2")
 }
 
 @font-face {
+    font-display: swap;
     font-family: El Messiri;
     font-weight: 400;
     src: url(../fonts/ElMessiri-Regular.ttf) format("truetype"), url(../fonts/ElMessiri-Regular.woff2) format("woff2")
 }
 
 @font-face {
+    font-display: swap;
     font-family: Manrope;
     font-weight: 600;
     src: url(../fonts/Manrope-SemiBold.ttf) format("truetype"), url(../fonts/Manrope-SemiBold.woff2) format("woff2")
 }
 
 @font-face {
+    font-display: swap;
     font-family: Manrope;
     font-weight: 400;
     src: url(../fonts/Manrope-Regular.ttf) format("truetype"), url(../fonts/Manrope-Regular.woff2) format("woff2")
 }
 
 @font-face {
+    font-display: swap;
     font-family: Montserrat Alternates;
     font-weight: 400;
     src: url(../fonts/MontserratAlternates-Regular.ttf) format("truetype"), url(../fonts/MontserratAlternates-Regular.woff2) format("woff2")
 }
 
 @font-face {
+    font-display: swap;
     font-family: Poppins;
     font-weight: 400;
     src: url(../fonts/Poppins-Regular.ttf) format("truetype"), url(../fonts/Poppins-Regular.woff2) format("woff2")
@@ -66,7 +74,6 @@
     border: none;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-display: block;
     font-family: var(--mainFont), sans-serif;
     font-style: normal;
     list-style: none;
@@ -152,6 +159,7 @@ img {
 
 .btn.active,
 .btn:hover {
+    border-color: rgba(0, 0, 0, 0);
     color: var(--whiteColor)
 }
 
@@ -1351,6 +1359,7 @@ input[type=number]::-webkit-outer-spin-button {
 .ifra__certitficate-abs {
     bottom: 0;
     left: 0;
+    max-width: 45vw;
     position: absolute;
     z-index: -1
 }
@@ -1367,6 +1376,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .halal__certificate-abs {
+    max-width: 50vw;
     position: absolute;
     right: 0;
     top: 0;
@@ -2912,6 +2922,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .ifra__certitficate-abs {
+        max-width: none;
         position: relative
     }
 
@@ -2921,6 +2932,7 @@ input[type=number]::-webkit-outer-spin-button {
 
     .halal__certificate-abs {
         margin-left: auto;
+        max-width: none;
         position: relative
     }
 
@@ -4459,6 +4471,7 @@ input[type=number]::-webkit-outer-spin-button {
     .profile__data-order-text {
         font-size: 16px
     }
+
     .profile__data-send {
         position: absolute;
         right: 16px
@@ -4496,7 +4509,6 @@ input[type=number]::-webkit-outer-spin-button {
     .profile__data-save {
         padding: 10px 18px
     }
-
 }
 
 @media(max-width:360px) {
