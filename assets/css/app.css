@@ -4421,7 +4421,8 @@ input[type=number]::-webkit-outer-spin-button {
     }
 
     .busket__info-link {
-        color: var(--blackColor) !important
+        color: var(--blackColor) !important;
+        border-color: var(--blueColor) !important;
     }
 
     .busket__info-link:before {
@@ -4511,9 +4512,9 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
-@media(max-width:360px) {
+@media(max-width:365px) {
     .busket__info-total-strong {
-        font-size: 18px;
+        font-size: 17px;
         margin-right: 20px
     }
 
