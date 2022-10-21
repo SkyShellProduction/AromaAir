@@ -313,6 +313,10 @@ img {
     flex-shrink: 0
 }
 
+.slider__item img {
+    pointer-events: none
+}
+
 @-webkit-keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -494,13 +498,11 @@ img {
 }
 
 .login__custom-check:before {
-    background: var(--blueColor);
-    content: "";
+    color: var(--blueColor);
+    content: "✓";
     display: block;
-    height: 65%;
     opacity: 0;
-    position: absolute;
-    width: 65%
+    position: absolute
 }
 
 .login__btn {
@@ -2481,6 +2483,9 @@ input[type=number]::-webkit-outer-spin-button {
     border-radius: 15px;
     max-width: 357px;
     padding: 24px 23.5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     width: 100%
 }
 
@@ -2727,13 +2732,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .order__info-custom-check:before {
-    background: var(--blueColor);
-    content: "";
+    color: var(--blueColor);
+    content: "✓";
     display: block;
-    height: 10px;
+    font-size: 12px;
     opacity: 0;
-    position: absolute;
-    width: 10px
+    position: absolute
 }
 
 .order__info-policy {
